@@ -243,13 +243,13 @@ Quick Sort is a divide-and-conquer sorting algorithm that selects a “pivot” 
 +---------------------------+
 | Is arr[j] < arr[minIndex]?|
 +---------------------------+
-       |Yes           |No
-       v               v
-+----------------+      |
-| minIndex = j   |      |
-+----------------+      |
-       |                |
-       v                |
+       |Yes         |No
+       v            |
++----------------+  |
+| minIndex = j   |  |
++----------------+  |
+       |            |
+       v            v 
    +------------------+
    | j = j + 1        |
    +------------------+
